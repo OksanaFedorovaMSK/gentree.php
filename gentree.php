@@ -60,7 +60,7 @@ function getInfo() {
 }
 $egor = new Person("Егор", "Максимов", 77, null, null);
 $polina = new Person("Полина", "Максимова", 73);
-$inna = new Person("Инна", "Максимова", 50, $polina, $egor);
+$inna = new Person("Инна", "Фетисова", 50, $polina, $egor);
 $igor = new Person("Игорь", "Фетисов", 76);
 $olga = new Person("Ольга", "Фетисова", 74);
 $vadim = new Person("Вадим", "Фетисов", 53, $olga, $igor);
